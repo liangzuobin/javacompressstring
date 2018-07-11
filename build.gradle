@@ -1,0 +1,12 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    implementation group: 'commons-io', name: 'commons-io', version: '2.6'
+    testImplementation 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
